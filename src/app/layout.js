@@ -22,19 +22,12 @@ export default function RootLayout({ children }) {
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
-            gap:"20px"
-            
+            gap: "20px",
           }}
         >
-          <Link href={"/"}>
-          Home
-          </Link>
-          <Link href={"/Posts"}>
-          Posts
-          </Link>
-          <Link href={"/Articles"}>
-           Articles
-          </Link>
+          <Link href={"/"}>Home</Link>
+          <Link href={"/Posts"}>Posts</Link>
+          <Link href={"/Articles"}>Articles</Link>
         </nav>
         {children}
       </body>
